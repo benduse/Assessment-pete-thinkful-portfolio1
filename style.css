@@ -19,14 +19,11 @@ h3 {
 /* Header */
 header{
   text-align: center;
+  justify-content: center;
 }
 
-.parent {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
+ul{
+  text-align: left;
 }
 
 /* Containers */
@@ -37,21 +34,20 @@ div {
 }
 
 article {
-  display: flex;
   padding: 50px 0;
 }
 
 article div {
   text-align: center;
   width: 100%;
-  padding: 50px 0;
+  padding: 10px;
 }
 
 .container{
   display:flex;
   justify-content: center;
-  flex-direction: column;
-  text-align: right;
+  flex-direction: row;
+  align-items: center;
 }
 /* Paragraphs */
 p {
@@ -62,10 +58,6 @@ p {
 section > p {
 font-size: 14px;
 text-align: center;
-}
-
-li {
-  text-align: start;
 }
 
 /* Links */
@@ -96,6 +88,7 @@ img {
 /* Footer */
 footer {
   text-align: center;
+  justify-content: center;
 }
 
 /* Other page elements */
@@ -103,20 +96,14 @@ hr {
   border: 1px solid black;
 }
 
-.item{
-  flex: 1;
-}
-
-.text {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
 .group{
-  margin: 10px;
+  margin: 0 auto;
+  flex: 1;
+ flex-direction: column;
+ justify-content: space-evenly;
 }
 
-.group .item{
+.item{
   font-size: 14px;
   font-style: bold;
   color:black;
